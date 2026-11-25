@@ -1,0 +1,17 @@
+[project]
+name = "git-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "s2622030", email = "s2622030@stu.musashino-u.ac.jp" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+git-practice = "git_practice:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
